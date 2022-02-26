@@ -15,4 +15,8 @@
                 {{ transacao.valor }} - {{ transacao.categoria }}</li> 
         {% endfor %}
     </ul>
+
+    <!-- Link para a tela de nova transação -->
+    <a href="{% url 'nova' %}">Nova</a>
+</body>
 </html>

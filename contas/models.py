@@ -1,8 +1,8 @@
-from django.db import models
-
 '''Aqui criam-se os models, classes que farão interação com o banco de dados. 
 todo model deve herdar de models.Model, passados como parâmetros entre parentes. 
 Categoria é o nome da tabela no banco'''
+
+from django.db import models
 
 class Categoria(models.Model):
     # fields são colunas da tabela. A variável name receberá um texto com no máximo 100 caracteres
